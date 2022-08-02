@@ -22,12 +22,12 @@ fn main() {
     }
 
     println!("");
-    println!("use system config:");
-    let resolver = Resolver::from_system_conf().unwrap();
-    let response = resolver.lookup_ip(query.as_str());
-    for ans in response.iter() {
-        println!("{:?}", ans);
-    }
+    // println!("use system config:");
+    // let resolver = Resolver::from_system_conf().unwrap();
+    // let response = resolver.lookup_ip(query.as_str());
+    // for ans in response.iter() {
+    //     println!("{:?}", ans);
+    // }
 
     println!("");
     println!("use ns:");
